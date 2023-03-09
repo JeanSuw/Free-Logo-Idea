@@ -19,6 +19,12 @@ npm i inquirer@8.2.4
 
 ## [Usage](#table-of-content)
 This application won’t be deployed. Everything will run in the terminals. I recommended viewing the demo in the link below
+
+To run the application you must type in:
+```bash
+node index.js
+```
+
 * [Insert demo here]()
     * Note for the video
         * A walkthrough video that demonstrates the functionality of the SVG logo maker and passing tests must be submitted.
