@@ -39,10 +39,15 @@ node index.js
 Jest package is used for the unit test.
 
 ## [Credits](#table-of-content)
-Without these tutorials, my application would not exist today.
+Without these packages and tutorials, my application would not exist today.
 
+Packages
 * [Input collector: Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4)
 * [Unit test: Jest Package](https://www.npmjs.com/package/jest)
+
+Tutorials
+* [SVG Polygon](https://www.w3schools.com/graphics/svg_polygon.asp)
+
 
 
 [Return back to Title](#free-logo-idea)
