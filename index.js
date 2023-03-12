@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const shapeClass = require('./lib/shape.js');
 
-questions = [
+const questions = [
     {
         type: 'input',
         message: 'Create a initials. (Up to three characters and no ".")',
