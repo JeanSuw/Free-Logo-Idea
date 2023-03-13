@@ -49,5 +49,4 @@ Tutorials
 * [SVG Polygon](https://www.w3schools.com/graphics/svg_polygon.asp)
 * [More inquirer](https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts)
 
-
 [Return back to Title](#free-logo-idea)
