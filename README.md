@@ -41,16 +41,22 @@ Jest package is used for the unit test.
 ```bash
 npm run test // To run tests
 ```
-There are 4 tests in file shape.test.js which focused on setting correct color and initials values in each classes.
+There are 8 tests in file shape.test.js which focused on setting correct color and initials values in each classes.
 
 ```bash
 Color name for Circle
     ✓ Should have red Circle (2 ms)
   Hex color for Square
-    ✓ hex color for square is correspond to given value (darkOrchid = "#9932CC") (1 ms)
+    ✓ hex color for square is correspond to given value (darkOrchid = "#9932CC")
   Triangle Render
     ✓ Renders a shape of a triangle with color
     ✓ Renders initials inside a triangle with color text
+  Square Render
+    ✓ Renders a shape of a square with color (1 ms)
+    ✓ Renders initials inside a square with color text
+  Circle Render
+    ✓ Renders a shape of a square with color
+    ✓ Renders initials inside a square with color text
 ```
 
 ## [Credits](#table-of-content)
