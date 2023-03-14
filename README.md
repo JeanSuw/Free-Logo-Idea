@@ -25,6 +25,7 @@ To run the application you must type in:
 node index.js
 ```
 
+
 * [Insert demo here]()
     * Note for the video
         * A walkthrough video that demonstrates the functionality of the SVG logo maker and passing tests must be submitted.
@@ -49,5 +50,6 @@ Tutorials
 * [SVG Polygon](https://www.w3schools.com/graphics/svg_polygon.asp)
 * [More inquirer](https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts)
 * [Export multiple functions](https://stackoverflow.com/questions/16631064/declare-multiple-module-exports-in-node-js)
+* [Color name for hex code](https://htmlcolorcodes.com/color-names/)
 
 [Return back to Title](#free-logo-idea)
