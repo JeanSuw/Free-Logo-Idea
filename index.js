@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const fs = require('fs');
 const shapeClass = require('./lib/shape.js');
 
 const questions = [
@@ -43,9 +44,9 @@ function askUsers(){
         console.log(`initials color : ${answers.textColor}`);
         console.log(`shape: ${answers.shape}`);
         console.log(`shape color: ${answers.shapeColor}`);
-        //console.log(`It worked! Check answers`);
-        var newLogo = shapeClass.createLogo(answers);
         
+        var newLogo = shapeClass.createLogo(answers);
+        console.log(`check setters ${newLogo}`);
         var renderedLogo = shapeClass.renderSVG(newLogo);
         writeToFile(`./YourLogo/newshape.svg`, renderedLogo);
 
