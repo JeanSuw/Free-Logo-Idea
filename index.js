@@ -29,11 +29,21 @@ const questions = [
     },
 ];
 
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => 
+        err ? console.error(err) : console.log(`Check file name called ${fileName}`)
+    );
+}
+
 function askUsers(){
     inquirer
         .prompt(questions)
         .then((answers) => {
-            console.log(`It worked! Check answers`);
+            //console.log(`It worked! Check answers`);
+            var newLogo = createLogo(answers);
+            var renderedLogo = renderSVG(newLogo);
+            writeToFile(`./YourLogo/${answers.shape.toLowercase()}.svg`, newLogo);
+
         })
         .catch((error) =>{
             if (error.isTtyError){
