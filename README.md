@@ -26,15 +26,8 @@ node index.js
 ```
 ![terminalExample](./img/CreateLogoFromTerminal.png)
 
-
-* [Insert demo here]()
-    * Note for the video
-        * A walkthrough video that demonstrates the functionality of the SVG logo maker and passing tests must be submitted.
-        * The `README.md` file must include a link to the walkthrough video.
-        * The walkthrough video must show all tests passing from the command line.
-        * The walkthrough video must demonstrate how a user would invoke the application from the command line.
-        * The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-        * The walkthrough video must demonstrate a generated SVG file, showing the file being opened in the browser. The image in the browser must reflect the choices made by the user (text, shape, and colors).
+* [Quick link to the demo](https://drive.google.com/file/d/1Sb-r_a54Vd6teXU8czcO6KhzEio6DkWm/view)
+* [Logo Generator Demo (Downloaded version)](./img/LogoGeneratorDemo.webm) If the quick link does not work, I recommend download this one.
 
 
 ## [Test](#table-of-content)
