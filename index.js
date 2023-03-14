@@ -40,15 +40,9 @@ function askUsers(){
     inquirer
         .prompt(questions)
     .then((answers) => {
-        console.log(`initials: ${answers.initial}`);
-        console.log(`initials color : ${answers.textColor}`);
-        console.log(`shape: ${answers.shape}`);
-        console.log(`shape color: ${answers.shapeColor}`);
-        
         var newLogo = shapeClass.createLogo(answers);
         var renderedLogo = shapeClass.renderSVG(newLogo);
         writeToFile(`./YourLogo/newshape.svg`, renderedLogo);
-
     })
     .catch((error) =>{
         if (error.isTtyError){
