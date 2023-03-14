@@ -48,5 +48,6 @@ Packages
 Tutorials
 * [SVG Polygon](https://www.w3schools.com/graphics/svg_polygon.asp)
 * [More inquirer](https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts)
+* [Export multiple functions](https://stackoverflow.com/questions/16631064/declare-multiple-module-exports-in-node-js)
 
 [Return back to Title](#free-logo-idea)

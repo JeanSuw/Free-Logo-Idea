@@ -6,13 +6,13 @@ const questions = [
         type: 'input',
         message: 'Create a initials. (Up to three characters and no ".")',
         name: 'initial',
-        default: "NJS"
+        default: "NJS",
     },
     {
         type: 'input',
         message: 'Enter the text color. You can use a keyword (i.e blue) or hexadecimal number.',
         name: 'textColor',
-        default: "purple"
+        default: "purple",
     },
     {
         type: 'list',
@@ -25,7 +25,7 @@ const questions = [
         type: 'input',
         message: 'Enter the logo color. You can use a keyword (i.e blue) or hexadecimal number.',
         name: 'shapeColor',
-        default: "#DFFFFD"
+        default: "#DFFFFD",
     },
 ];
 
@@ -38,19 +38,24 @@ function writeToFile(fileName, data) {
 function askUsers(){
     inquirer
         .prompt(questions)
-        .then((answers) => {
-            //console.log(`It worked! Check answers`);
-            var newLogo = createLogo(answers);
-            var renderedLogo = renderSVG(newLogo);
-            writeToFile(`./YourLogo/${answers.shape.toLowercase()}.svg`, newLogo);
+    .then((answers) => {
+        console.log(`initials: ${answers.initial}`);
+        console.log(`initials color : ${answers.textColor}`);
+        console.log(`shape: ${answers.shape}`);
+        console.log(`shape color: ${answers.shapeColor}`);
+        //console.log(`It worked! Check answers`);
+        var newLogo = shapeClass.createLogo(answers);
+        
+        var renderedLogo = shapeClass.renderSVG(newLogo);
+        writeToFile(`./YourLogo/newshape.svg`, renderedLogo);
 
-        })
-        .catch((error) =>{
-            if (error.isTtyError){
-                console.log("Prompt couldn't be rendered in the current environment");
-            } else {
-                console.log("How?");
-            }
+    })
+    .catch((error) =>{
+        if (error.isTtyError){
+            console.log("Prompt couldn't be rendered in the current environment");
+        } else {
+            console.log("How?");
+        }
     });
 }
 
