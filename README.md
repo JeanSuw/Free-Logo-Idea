@@ -24,6 +24,7 @@ To run the application you must type in:
 ```bash
 node index.js
 ```
+![terminalExample](./img/CreateLogoFromTerminal.png)
 
 
 * [Insert demo here]()
