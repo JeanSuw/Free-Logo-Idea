@@ -25,7 +25,7 @@ const questions = [
         type: 'input',
         message: 'Enter the logo color. You can use a keyword (i.e blue) or hexadecimal number.',
         name: 'shapeColor',
-        default: "DFFFFD"
+        default: "#DFFFFD"
     },
 ];
 
