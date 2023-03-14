@@ -46,7 +46,6 @@ function askUsers(){
         console.log(`shape color: ${answers.shapeColor}`);
         
         var newLogo = shapeClass.createLogo(answers);
-        console.log(`check setters ${newLogo}`);
         var renderedLogo = shapeClass.renderSVG(newLogo);
         writeToFile(`./YourLogo/newshape.svg`, renderedLogo);
 
